@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.widget.RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity1">
+
+
+    <LinearLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        android:gravity="center"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <EditText
+            android:id="@+id/art1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:hint="@string/montant_de_l_article_1"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/art2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:hint="@string/montant_de_l_article_2"
+            android:autofillHints="" />
+
+        <EditText
+            android:id="@+id/art3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="number"
+            android:textAlignment="center"
+            android:hint="@string/montant_de_l_article_3"
+            android:autofillHints="" />
+
+        <Button
+            android:id="@+id/button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/gerer_la_facture"
+            android:textSize="20sp"
+            android:onClick="calculerTotal" />
+
+        <TextView
+            android:id="@+id/montant"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/shipping"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tps"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/tvq"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+
+        <TextView
+            android:id="@+id/total"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:textSize="20sp"
+            android:textAlignment="center" />
+    </LinearLayout>
+</android.widget.RelativeLayout>

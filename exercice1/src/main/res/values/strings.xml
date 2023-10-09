@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">exercice1</string>
+    <string name="montant_de_l_article_3">montant de l\'article 3</string>
+    <string name="gerer_la_facture">gerer la facture</string>
+    <string name="montant_de_l_article_2">montant de l\'article 2</string>
+    <string name="montant_de_l_article_1">montant de l\'article 1</string>
+</resources>
